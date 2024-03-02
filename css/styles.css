@@ -193,14 +193,14 @@ transform: rotate(-19.628deg);
 border-radius: 16px;
 position: absolute;
     left: 342px ;
-top: 256px;
+   top: 256px;
 }
 .discount-intro{
     color: #FFF;
 text-align: center;
 font-size: 24px;
 font-weight: 400;
-padding-top: -5px;
+padding-top: -25px;
 
 }
 .discount-info{
@@ -211,3 +211,36 @@ padding: 0px 25px;
 margin-top: -51px;
 
 }
+
+
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.footer-icon{
+    width: 40px;
+height: 47px;
+margin-right:6px;
+
+}
+.footer-intro{
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+.footer-text{
+  /* width: 769px; */
+   color: #5A5A5D;
+  text-align: center;
+}
+hr{
+    width: 800px;
+}
+.footer-copyright{
+    text-align: center;
+   
+}
+
+
