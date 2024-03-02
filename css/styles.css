@@ -2,18 +2,19 @@
   font-family: "Mulish", sans-serif;
 }
 .container {
-  height: 450px;
+  height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .half-width {
   width: 45%;
-  margin: 20px 50px;
-
+  margin-top: 0px;
 }
 .half-width img {
-  width: 540px;
   height: 450px;
+  width: 450px;
+  margin: 20px 50px;
 }
 .tour-title {
   color: #131318;
@@ -37,8 +38,94 @@
   font-weight: 800;
   padding: 10px 15px;
 }
-.primary-btn:hover{
-    background-color: white;
-    border: 1px solid #ff5400;
-    color: #ff5400;
+.primary-btn:hover {
+  background-color: white;
+  border: 1px solid #ff5400;
+  color: #ff5400;
+}
+
+/* destination title style  */
+.destination-container {
+  margin-top: 150px;
+}
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  width: 643px;
+  margin: 0 auto;
+}
+
+.row1 {
+  display: flex;
+  width: 98%;
+  margin: 0 20px;
+}
+.row-img1 {
+  background-image: url(./../images/Rectangle5.png);
+  width: 573px;
+  height: 300px;
+  margin: 0 20px;
+}
+.row-text1 {
+  color: #fff;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+text-align: center;
+  font-size: 28px;
+
+  font-weight: 800;
+}
+.row-img2 {
+  background-image: url(./../images/Rectangle8.png);
+  width: 573px;
+  height: 300px;
+  margin: 0 20px;
+}
+
+.row2 {
+  display: flex;
+   width: 98%;
+  margin: 30px 20px;
+}
+.row2-img1 {
+  background-image: url(./../images/Rectangle6.png);
+  width: 374px;
+  height: 286px;
+  margin: 0 20px;
+}
+.row2-img2 {
+  background-image: url(./../images/Rectangle7.png);
+  width: 474px;
+  height: 286px;
+  margin: 0 10px;
+}
+.row2-img3 {
+  background-image: url(./../images/Rectangle9.png);
+  width: 274px;
+  height: 286px;
+  margin: 0 20px;
+}
+.row3 {
+  display: flex;
+   width: 98%;
+  margin: 30px 20px;
+}
+.row3-img1 {
+  background-image: url(./../images/Rectangle11.png);
+  width: 473px;
+  height: 300px;
+  margin: 0 20px;
+}
+.row3-img2 {
+  background-image: url(./../images/Rectangle10.png);
+  width: 673px;
+  height: 300px;
+  margin: 0 20px;
 }
