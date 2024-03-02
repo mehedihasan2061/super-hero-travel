@@ -26,13 +26,67 @@ nav li a {
   color: #424247;
 }
 
+
 .banner-container {
   background-image: url(./../images/group13.png);
   background-size: cover;
+  opacity: .3 black;
   border-radius: 16px;
   width: 98%;
   height: 500px;
   margin: 0 auto;
+  padding-top: 30px;
+  
+}
+.banner-title{
+  text-align: center;
+  font-size: 64px;
+   color: #FFF;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.banner-description{
+  width: 676px;
+  color: #FFF;
+  text-align: center;
+  margin: 24px auto;
+  
+}
+.banner-input{
+  background-color: rgba(255, 255, 255, 0.30);
+  width: 810px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.input-text{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background-color: #FFF;
+border: none;
+margin-right: 24px;
+}
+.select-option{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background-color: #FFF;
+border: none;
+margin-right: 24px;
+}
+.banner-btn{
+  width: 174px;
+height: 52px;
+border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 15px;
+  margin-right: 24px;
 }
 
 .container {
