@@ -1,0 +1,27 @@
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+ .my11x40{
+    margin: 11px 40px;
+}
+
+
+
+/* containers */
+
+.containr{
+    max-width: 1260px;
+    margin: 0 auto;
+}

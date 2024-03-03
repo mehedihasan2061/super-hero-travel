@@ -7,11 +7,18 @@
   font-weight: 800;
 }
 
+/* Global Css  */
+
+/* .container{
+  max-width: 1260px;
+  margin: auto;
+} */
+
+/* global css end */
 nav {
   display: flex;
   justify-content: space-between;
   width: 98%;
-  
 }
 nav ul {
   display: flex;
@@ -27,59 +34,57 @@ nav li a {
   color: #424247;
 }
 
-
 .banner-container {
   background-image: url(./../images/group13.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  opacity: .3 black;
+  opacity: 0.3 black;
   border-radius: 16px;
-  width: 98%;
+  width: 100%;
   height: 500px;
   margin: 0 auto;
   padding-top: 30px;
-  
 }
-.banner-title{
+.banner-title {
   text-align: center;
   font-size: 64px;
-   color: #FFF;
+  color: #fff;
   font-weight: 800;
   margin-bottom: 24px;
 }
 
-.banner-description{
+.banner-description {
   width: 676px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   margin: 24px auto;
-  
 }
-.banner-input{
-  background-color: rgba(255, 255, 255, 0.30);
+.banner-input {
+  background-color: rgba(255, 255, 255, 0.3);
   width: 810px;
   padding: 16px;
   margin: 0 auto;
 }
-.input-text{
+.input-text {
   width: 174px;
-height: 52px;
-border-radius: 8px;
-background-color: #FFF;
-border: none;
-margin-right: 24px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+  margin-right: 24px;
 }
-.select-option{
+.select-option {
   width: 174px;
-height: 52px;
-border-radius: 8px;
-background-color: #FFF;
-border: none;
-margin-right: 24px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+  margin-right: 24px;
 }
-.banner-btn{
+.banner-btn {
   width: 174px;
-height: 52px;
-border: none;
+  height: 52px;
+  border: none;
   border-radius: 8px;
   background: #ff5400;
   color: #fff;
@@ -98,12 +103,13 @@ border: none;
 }
 .half-width {
   width: 45%;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .half-width img {
-  height: 450px;
+  height: 480px;
   width: 450px;
-  margin: 20px 50px;
+  margin: 0px 50px;
+  margin-top: 60px;
 }
 .tour-title {
   color: #131318;
@@ -146,7 +152,7 @@ border: none;
 .destination-description {
   color: rgba(19, 19, 24, 0.7);
   width: 643px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .row1 {
@@ -156,6 +162,7 @@ border: none;
 }
 .row-img1 {
   background-image: url(./../images/rectangle5.png);
+  background-repeat: no-repeat;
   width: 573px;
   height: 300px;
   margin: 0 20px;
@@ -173,6 +180,7 @@ border: none;
 }
 .row-img2 {
   background-image: url(./../images/rectangle8.png);
+  background-repeat: no-repeat;
   width: 573px;
   height: 300px;
   margin: 0 20px;
@@ -185,18 +193,21 @@ border: none;
 }
 .row2-img1 {
   background-image: url(./../images/rectangle6.png);
+  background-repeat: no-repeat;
   width: 374px;
   height: 286px;
   margin: 0 20px;
 }
 .row2-img2 {
   background-image: url(./../images/rectangle7.png);
+  background-repeat: no-repeat;
   width: 474px;
   height: 286px;
   margin: 0 10px;
 }
 .row2-img3 {
   background-image: url(./../images/rectangle9.png);
+  background-repeat: no-repeat;
   width: 274px;
   height: 286px;
   margin: 0 20px;
@@ -208,12 +219,14 @@ border: none;
 }
 .row3-img1 {
   background-image: url(./../images/rectangle11.png);
+  background-repeat: no-repeat;
   width: 473px;
   height: 300px;
   margin: 0 20px;
 }
 .row3-img2 {
   background-image: url(./../images/rectangle10.png);
+  background-repeat: no-repeat;
   width: 673px;
   height: 300px;
   margin: 0 20px;
@@ -317,7 +330,6 @@ border: none;
   width: 393px;
   border-radius: 8px;
   height: 52px;
-  margin: 11px 40px;
   border: 1px solid rgba(19, 19, 24, 0.08);
 }
 .newsletter-btn {
@@ -338,6 +350,7 @@ border: none;
 }
 .newsletter-img {
   background-image: url(./../images/newsletter.png);
+  background-repeat: no-repeat;
   width: 672px;
   height: 422px;
   position: relative;
@@ -393,3 +406,42 @@ hr {
 .footer-copyright {
   text-align: center;
 }
+
+/* @media (max-width:600px) {
+.banner-input {
+    background-color: rgba(255, 255, 255, 0.30);
+    width: 810px;
+    padding: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+} */
+
+/* @media screen and (max-width:600px) {
+   nav{
+    flex-direction: column;
+   }
+   nav ul{
+    flex-direction: column;
+   }
+   .banner-container img{
+    width: 100%;
+    margin: 500px;
+   }
+   .banner-description{
+    width: 580px;
+   }
+   .banner-input{
+     width: 590px;
+     margin: auto;
+   }
+   .container{
+    flex-direction: column;
+    margin: auto;
+   }
+   .half-width img {
+    width: 100%;
+    margin: auto;
+   }
+} */
